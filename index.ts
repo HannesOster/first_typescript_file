@@ -31,3 +31,10 @@ enum Starks {
 let cat: Starks = Starks.Catlyn;
 
 console.log(cat);
+
+function getName(): string {
+  return "Johannes";
+}
+function voidFunction(): void {
+  console.log("hey");
+}
