@@ -10,5 +10,14 @@ let person: {
   name: string;
   location: string;
   isProgrammer: boolean;
+  skills: typeof array;
+  bday: number[];
 };
-person = { name: "Johannes", location: "Niederrhein", isProgrammer: true };
+person = {
+  name: "Johannes",
+  location: "Niederrhein",
+  isProgrammer: true,
+  skills: ["js", "ts", "karate"]
+  bday: [4,6,1994]
+
+};
