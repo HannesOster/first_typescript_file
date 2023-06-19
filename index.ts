@@ -12,12 +12,18 @@ let person: {
   isProgrammer: boolean;
   skills: typeof array;
   bday: number[];
+  data: object{};
 };
 person = {
   name: "Johannes",
   location: "Niederrhein",
   isProgrammer: true,
   skills: ["js", "ts", "karate"]
-  bday: [4,6,1994]
+  bday: [4,6,1994],
+  data: {name: "Johannes",
+age: 25}
+
 
 };
+let n : number = 1;
+
