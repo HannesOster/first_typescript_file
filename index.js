@@ -1,19 +1,24 @@
-var two = 2;
-var array = ["hey", "hello", "hi"];
-array[1] = 1;
+"use strict";
+let two = 2;
+let array = ["hey", "hello", "hi"];
 console.log(array);
-var result = 3;
+let result = 3;
 result = 4;
-result = "hey";
-var person, _a = void 0;
-;
+let person;
 person = {
     name: "Johannes",
     location: "Niederrhein",
     isProgrammer: true,
     skills: ["js", "ts", "karate"],
-    bday: [4, 6, 1994],
-    data: { name: "Johannes",
-        age: 25 }
+    birthday: [4, 6, 1994],
 };
-var n = 1;
+let n = "hey";
+let namesAndNumbers = ["Max", "Tom", 5];
+var Starks;
+(function (Starks) {
+    Starks[Starks["Jon"] = 0] = "Jon";
+    Starks[Starks["Bran"] = 1] = "Bran";
+    Starks[Starks["Catlyn"] = 2] = "Catlyn";
+})(Starks || (Starks = {}));
+let cat = Starks.Catlyn;
+console.log(cat);
