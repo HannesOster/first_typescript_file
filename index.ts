@@ -5,3 +5,10 @@ console.log(array);
 let result = 3;
 result = 4;
 result = "hey";
+
+let person: {
+  name: string;
+  location: string;
+  isProgrammer: boolean;
+};
+person = { name: "Johannes", location: "Niederrhein", isProgrammer: true };
