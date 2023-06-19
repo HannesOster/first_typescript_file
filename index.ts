@@ -32,6 +32,10 @@ let cat: Starks = Starks.Catlyn;
 
 console.log(cat);
 
-function getName(): void {
-  console.log("Hallo");
+function getName(): string {
+  return "Johannes";
+}
+function voidFunction(): void {
+  console.log("hey");
+
 }
