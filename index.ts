@@ -37,4 +37,5 @@ function getName(): string {
 }
 function voidFunction(): void {
   console.log("hey");
+
 }
